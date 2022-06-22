@@ -1,0 +1,175 @@
+.cart_btn {
+  border: 0 none;
+  outline: 0 none;
+}
+
+img,
+.cart-module,
+.cart-labels,
+.cart-product {
+  width: 100%;
+}
+
+.cart-module,
+.cart-labels,
+.item,
+.price,
+.quantity,
+.cart-product,
+.item-image,
+.item-details {
+  float: left;
+}
+
+.hide {
+  display: none;
+}
+
+.subtotal {
+  text-align: right;
+}
+
+main {
+  clear: both;
+  font-size: 0.75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 1rem 0;
+  width: 960px;
+}
+
+.cart {
+  padding: 0 1rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cart-module {
+  color: #111;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3125rem;
+}
+
+.cart-labels {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: 1.625rem;
+}
+
+.cart-total {
+  border-bottom: 1px solid #ccc;
+  margin-top: 1.625rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: #111;
+  display: inline-block;
+  padding: 0.625rem 0;
+}
+
+.item {
+  width: 55%;
+}
+
+.price,
+.quantity,
+.subtotal {
+  width: 15%;
+}
+
+.subtotal {
+  float: right;
+  text-align: right;
+}
+
+.remove {
+  bottom: 1.125rem;
+  float: right;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  width: 45%;
+}
+
+.remove button {
+  background-color: transparent;
+  color: #777;
+  float: none;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.item-heading {
+  padding-left: 4.375rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cart-product {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.cart-image {
+  float: left;
+  width: 35%;
+}
+
+.item-details {
+  width: 65%;
+}
+
+.cart-frame {
+  border: 1px solid #aaa;
+}
+
+.item-details {
+  padding: 0 1.5rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.quantity-field {
+  background-color: #ccc;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 0.625rem;
+  padding: 2px;
+  width: 3.75rem;
+}
+
+.text-colour {
+  color: #111111;
+}
+
+.text-colour:hover {
+  color: #111111;
+}
+
+.quantity button {
+  float: right;
+  margin-left: 5px;
+}
+
+.minus {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.upDownSpacing {
+  float: right;
+  padding-left: 5px;
+}

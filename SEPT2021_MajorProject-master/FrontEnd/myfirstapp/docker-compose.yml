@@ -1,0 +1,9 @@
+version: '3'
+services:
+  bookmicroservices:
+    image: frontend:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3001:3000
